@@ -16,13 +16,8 @@
     "operatorsAliases": false
   },
   "production": {
-    "use_env_variable": "DATABASE_URL",
-    "seederStorage": "sequelize",
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
-    "dialect": "mysql",
-    "operatorsAliases": false
+    "dialect": "postgres",
+  "seederStorage": "sequelize",
+  "use_env_variable": "DATABASE_URL"
   }
 }
